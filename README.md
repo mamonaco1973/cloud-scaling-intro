@@ -23,4 +23,31 @@ Google Cloud **Managed Instance Groups** provide a streamlined, globally scalabl
 
 [Detailed Feature Comparison](./Comparison.md)
 
+## Flask Endpoint Summary
+
+### `/gtg` (GET)
+- **Purpose**: Health check.
+- **Response**: 
+  - `{"connected": "true", "instance-id": <instance_id>}` (if `details` query parameter is provided).
+  - 200 OK with no body otherwise.
+
+### `/candidate/<name>` (GET)
+- **Purpose**: Retrieve a candidate by name.
+- **Response**: 
+  - Candidate details (JSON) with status `200`.
+  - `"Not Found"` with status `404` if no candidate is found.
+
+### `/candidate/<name>` (POST)
+- **Purpose**: Add or update a candidate by name.
+- **Response**: 
+  - `{"CandidateName": <name>}` with status `200`.
+  - `"Unable to update"` with status `500` on failure.
+
+### `/candidates` (GET)
+- **Purpose**: Retrieve all candidates.
+- **Response**: 
+  - List of candidates (JSON) with status `200`.
+  - `"Not Found"` with status `404` if no candidates exist.
+
+
 
