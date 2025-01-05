@@ -26,7 +26,7 @@ Google Cloud **Managed Instance Groups** provide a streamlined, globally scalabl
 ## Flask Endpoint Summary
 
 - [AWS Source Code](https://github.com/mamonaco1973/aws-flask-asg/blob/main/02-packer/scripts/app.py)
-- Azure Source Code](https://github.com/mamonaco1973/azure-flask-vmss/blob/main/02-packer/scripts/app.py)
+- [Azure Source Code](https://github.com/mamonaco1973/azure-flask-vmss/blob/main/02-packer/scripts/app.py)
 - [GCP Source Code](https://github.com/mamonaco1973/gcp-flask-mig/blob/main/01-packer/scripts/app.py)
 
 ### `/gtg` (GET)
