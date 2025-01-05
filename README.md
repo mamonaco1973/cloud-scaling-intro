@@ -1,20 +1,21 @@
 # Scaling in the Cloud: AWS Auto Scaling, Azure VMSS, and GCP MIGs
+# Video Series Overview
 
-In this video series, we will cover the following tasks across AWS, Azure, and Google Cloud Platform (GCP):
+In this video series, we will explore deploying Flask-based microservices and implementing cloud-native scaling solutions across AWS, Azure, and Google Cloud Platform (GCP):
 
 1. **Deploy Flask-based microservices** on virtual machines in AWS, Azure, and GCP.
-2. **Use Document database** for storing microservice data.
-   - DynamoDB for AWS
-   - CosmosDB for Azure
-   - Firestore for GCP
-4. **Create machine images** of the deployed virtual machines using Packer.  
-5. **Implement cloud-native scaling solutions** tailored to each provider using Terraform:  
-   - Auto Scaling for AWS  
-   - Virtual Machine Scale Sets (VMSS) for Azure  
-   - Managed Instance Groups (MIGs) for GCP  
-6. **Test scalability** by simulating load and triggering scaling events.  
-7. **Clean up resources** by destroying all infrastructure created during the process.  
-
+2. **Use a document database** for microservice data storage:
+   - **DynamoDB** for AWS
+   - **CosmosDB** for Azure
+   - **Firestore** for GCP
+3. **Create machine images** of the deployed virtual machines using **Packer**.
+4. **Implement cloud-native scaling solutions** with **Terraform**, tailored to each provider:
+   - **Auto Scaling** for AWS
+   - **Virtual Machine Scale Sets (VMSS)** for Azure
+   - **Managed Instance Groups (MIGs)** for GCP
+5. **Test scalability** by simulating load and triggering scaling events.
+6. **Clean up resources** by destroying all infrastructure created during the process.
+  
 ## Introduction to Scaling
 
 AWS Auto Scaling, Azure Virtual Machine Scale Sets (VMSS), and Google Cloud Managed Instance Groups (MIGs) are cloud-native solutions designed to ensure scalability, fault tolerance, and efficiency for virtual machine workloads. They share the core purpose of automatically adjusting the number of virtual machines to meet demand.
