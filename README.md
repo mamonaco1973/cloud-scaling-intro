@@ -49,5 +49,14 @@ Google Cloud **Managed Instance Groups** provide a streamlined, globally scalabl
   - List of candidates (JSON) with status `200`.
   - `"Not Found"` with status `404` if no candidates exist.
 
+## AWS Solution
 
+![AWS diagram](aws-flask-asg.png)
 
+## Azure Solution
+
+![AWS diagram](azure-flask-vmss.png)
+
+## GCP Solution
+
+![AWS diagram](gcp-flask-mig.png)
