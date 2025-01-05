@@ -2,14 +2,18 @@
 
 In this video series, we will cover the following tasks across AWS, Azure, and Google Cloud Platform (GCP):
 
-1. **Deploy Flask-based microservices** on virtual machines in AWS, Azure, and GCP.  
-2. **Create machine images** of the deployed virtual machines using Packer.  
-3. **Implement cloud-native scaling solutions** tailored to each provider using Terraform:  
+1. **Deploy Flask-based microservices** on virtual machines in AWS, Azure, and GCP.
+2. **Use Document database** for storing microservice data.
+   - DynamoDB for AWS
+   - CosmosDB for Azure
+   - Firestore for GCP
+4. **Create machine images** of the deployed virtual machines using Packer.  
+5. **Implement cloud-native scaling solutions** tailored to each provider using Terraform:  
    - Auto Scaling for AWS  
    - Virtual Machine Scale Sets (VMSS) for Azure  
    - Managed Instance Groups (MIGs) for GCP  
-4. **Test scalability** by simulating load and triggering scaling events.  
-5. **Clean up resources** by destroying all infrastructure created during the process.  
+6. **Test scalability** by simulating load and triggering scaling events.  
+7. **Clean up resources** by destroying all infrastructure created during the process.  
 
 ## Introduction to Scaling
 
