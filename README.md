@@ -1,4 +1,4 @@
-# cloud-scaling-intro
+# Scaling in the Cloud: AWS Auto Scaling, Azure VMSS, and GCP MIGs
 
 ## Introduction
 
