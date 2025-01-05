@@ -1,5 +1,4 @@
 # Scaling in the Cloud: AWS Auto Scaling, Azure VMSS, and GCP MIGs
-# Video Series Overview
 
 In this video series, we will explore deploying Flask-based microservices and implementing cloud-native scaling solutions across AWS, Azure, and Google Cloud Platform (GCP):
 
