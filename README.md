@@ -14,7 +14,15 @@ In this video series, we will explore deploying Flask-based microservices and im
    - **Managed Instance Groups (MIGs)** for GCP
 5. **Test scalability** by simulating load and triggering scaling events.
 6. **Clean up resources** by destroying all infrastructure created during the process.
-  
+
+## Quick Links
+
+1. [Introduction Video](https://youtu.be/i_T7Wu_mJ1k)
+2. AWS Solution
+   - [AWS Autoscaling Video](https://youtu.be/aBMM6vjC8d0)
+   - [GitHub Project](https://github.com/mamonaco1973/aws-flask-asg)
+3. Azure Solution 
+
 ## Introduction to Scaling
 
 AWS Auto Scaling, Azure Virtual Machine Scale Sets (VMSS), and Google Cloud Managed Instance Groups (MIGs) are cloud-native solutions designed to ensure scalability, fault tolerance, and efficiency for virtual machine workloads. They share the core purpose of automatically adjusting the number of virtual machines to meet demand.
