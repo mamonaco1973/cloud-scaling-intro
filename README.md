@@ -21,7 +21,12 @@ In this video series, we will explore deploying Flask-based microservices and im
 2. AWS Solution
    - [AWS Autoscaling Video](https://youtu.be/aBMM6vjC8d0)
    - [GitHub Project](https://github.com/mamonaco1973/aws-flask-asg)
-3. Azure Solution 
+3. Azure Solution
+   - [Azure VMSS Video](https://youtu.be/a3l4qUfVvGQ)
+   - [GitHub Project](https://github.com/mamonaco1973/azure-flask-vmss)
+4. GCP Solution
+   - [GCP Managed Instance Groups Video](https://youtu.be/AAOZOhREc5o)
+   - [GitHub Project](https://github.com/mamonaco1973/gcp-flask-mig)
 
 ## Introduction to Scaling
 
